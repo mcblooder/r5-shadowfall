@@ -21,8 +21,8 @@
 
 ## Solutions
  
- <details>
-  <summary>Set shadow health to 30, reset health when a shadow kills legend</summary>
+<details>
+<summary>Set shadow health to 30, reset health when a shadow kills legend</summary>
 ```
 
 in Init -> AddCallback_OnPlayerKilled( OnPlayerKilled )
@@ -46,8 +46,8 @@ player.SetHealth( shadowMaxHealth )
 ```
 </details>
   
- <details>
-  <summary>Set Melee damage for shadows (150 Damage)</summary>
+<details>
+<summary>Set Melee damage for shadows (150 Damage)</summary>
   	Look at `Give Shadowhands after player dies`<br>
 </details>
 
